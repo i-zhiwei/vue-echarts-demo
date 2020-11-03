@@ -89,6 +89,7 @@ export default {
       }
 
       myMap.setOption({
+        background: "rgba(106,205,244,.2)",
         tooltip: {
           trigger: "item",
           formatter: function (params) {
@@ -121,7 +122,7 @@ export default {
           roam: true,
           itemStyle: {
             normal: {
-              areaColor: "transparent",
+              areaColor: "rgba(106,205,244,.15)",
               borderColor: "rgba(106,205,244,1)",
               borderWidth: 2,
               shadowColor: "rgba(106,205,244,.5)",
